@@ -1,0 +1,482 @@
+*{
+	margin:0 auto;
+
+	font-family:century Gothic;
+}
+.main{
+	margin:0 auto;
+	width:100%;
+
+}
+.container1{
+	margin:auto;
+	width:100%;
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.527)) ,url(images/img2.jpeg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+
+
+.list ul{
+	float:right;
+	list-style-type:none;
+	margin-top:15px;
+	
+}
+ul li{	
+	display:inline-block;
+	
+}
+ul li a{
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition:0.6s ease;
+	font-weight: 20px;
+}
+ul li a:hover
+{
+	background-color:#fff;
+	color:#000;
+	box-shadow:0px 0px 0px 0px grey;
+	
+}
+
+ul li.active a
+{
+	background-color:white;
+	color:black;
+	
+}
+.logo img
+{
+	float:left;
+	width:80px;
+	height:80px;
+	margin-left:20px;
+
+}
+
+.button
+{
+	position:absolute;
+	top:70%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.btn
+{
+	border:1px solid #fff;
+	padding:10px 35px;
+	color:#fff;
+	text-decoration:none;
+	transition:0.6s ease;
+}
+.btn:hover
+{
+	background-color:black;
+	color:white;
+}
+
+.title{
+	width:400px;
+	height:200px;
+	background:none;
+	top:48%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	position:absolute;
+	padding:10px;
+}
+#cabs{
+	color:white;
+	font-size:48px;
+	font-family: Times New Roman;
+	text-align:center;
+}
+#subtitle{
+	color:white;
+	font-size:18px;
+	font-family: Times New Roman;
+	margin-top:10px;
+	text-align:center;
+	
+}
+.container2{
+	width:100%;
+	height:500px;
+	color:white;
+	background:#fcc31a;
+}
+
+#firstbox{
+	width:50%;
+	height:100%;
+	background:none;
+	float:left;
+	
+}
+#best{
+	font-size:24px;
+	color:black;
+	font-family:Verdana;
+	margin-left:15%;
+	margin-top:10%;
+
+}
+#trusted{
+	font-size:34px;
+	color:black;
+	font-family:Verdana;
+	margin-left:15%;
+}
+#delhi{
+	font-size:34px;
+	color:black;
+	font-family:Verdana;
+	margin-left:15%;
+}
+#paragraph{
+	margin-left:15%;
+	margin-top:50px;
+	font-family:Times New Roman;
+	color:black;
+	font-size:14px;
+}
+#readmore{
+	border-radius:20px;
+	background:black;
+	width:150px;
+	padding:10px 5px;
+	color:white;
+	margin-left:20%;
+	margin-top:10%;
+	border:2px solid white;
+}
+
+
+
+#secondbox{
+	width:50%;
+	height:100%;
+	background:none;
+	float:left;
+	background-image:url("images/road.jpg");
+	background-size:cover;
+	background-position:center;
+	
+
+}
+
+
+.container3{
+	width:100%;
+	height:500px;
+	background:white;
+	text-align:center;
+
+
+}
+.tarrifbox{
+	width:98%;
+	height:400px;
+	background:white;
+	padding:2%;
+}
+.tarrif{
+	width:30%;
+	height:98%;
+	background:black;
+	float:left;
+	margin-left:2%;
+
+}
+#economy{
+	background-image:url(images/Economy.jpg);
+	background-size:cover;
+}
+#standard{
+	background-image:url(images/standard.jpg);
+	background-size:cover;
+}
+#business{
+	background-image:url(images/business.jpg);
+	background-size:cover;
+}
+
+
+.container4{
+	margin:auto;
+	width:100%;
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.527)) ,url(images/container4.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	text-align:center;
+	color:white;
+}
+.child4{
+	width:80%;
+	background:none;
+	height:60%;
+
+	color:black;
+
+}
+.part1{
+	background:none;
+	width:50%;
+	float:left;
+	height:100%;
+	text-align: left;
+}
+.part1 img{
+	width:80px;
+	height:80px;
+	float:left;
+	
+}
+	
+#pickup{
+	font-size:24px;
+	color:#fcc31a;
+	font-family:sans-serif;
+	text-align:center;
+}
+#advantages{
+	text-align:center;
+	color:white;
+	font-size:14px;
+}
+.part2{
+	width:50%;
+	background:none;
+	float:left;
+	height:100%;
+	text-align: left;
+
+}
+
+.part2 img{
+	width:80px;
+	height:80px;;
+	float:left;
+}
+#read{
+	border-radius:20px;
+	background:#dba709;
+	width:150px;
+	padding:10px 5px;
+	color:white;
+	border:2px solid white;
+}
+#read:hover
+{
+	background-color:black;
+	color:white;
+}
+
+
+.container5{
+	width:98%;
+	height:200px;
+	background:#fcc31a;
+	text-align:center;
+	padding:1%;
+}
+#contact{
+	font-size:60px;
+}
+
+.container6{
+	margin:auto;
+	width:100%;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.671)) ,url(images/container6.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	text-align:center;
+	color:white;
+}
+.child{
+	width:40%;
+	height:40%;
+	background:black;
+	float:left;
+	margin-left:7%;
+	margin-top:10%;
+	border-radius:10%;
+}
+.child img{
+	width:150px;
+	height:150px;
+	float:left;
+	border-radius:50%;
+	margin-left:20px;
+	margin-top:8%;
+
+
+}
+#happy{
+	color:#fcc31a;
+	text-align:center;
+	font-size:30px;
+
+}
+#test{
+	color:white;
+	text-align:center;
+	font-size:35px;
+	
+}
+.container7{
+	width:100%;
+	height:400px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.671)) ,url(images/container7.jfif);
+	background-size:cover;
+	background-position:center;
+	text-align:center;
+	color:white;
+}
+.information{
+	width:100%;
+	height:82%;
+
+}
+.info{
+	width:29%;
+	height:85%;
+	background:none;
+	float:left;
+	margin-left:1.6%;
+	padding:1%;
+	margin-top:5px;
+	border:1px solid white;
+}
+#about{
+	color:#fcc31a;
+	font-size:30px;
+	text-align:center;
+}
+.line{
+	width:80%;
+	height:1%;
+	background:#fcc31a;
+	margin:0 auto;
+}
+#example{
+	color:white;
+}
+#office{
+	
+	color:red;
+	font-size:20px;
+}
+#social{
+	color:white;
+	padding:5px;
+	font-size:15px;
+}
+#username{
+	font-size:24px;
+	color:rgb(81, 255, 226);
+	font-family:ms comic sans;
+	text-align:center;
+	
+}
+#cartype{
+	font-size:14px;
+	margin-left:20px;
+}
+#cars{
+	background:none;
+	border:none;
+}
+.container8{
+	width:100%;
+	height:400px;
+	background:rgb(0, 0, 0);
+	text-align:center;
+	color:white;
+}
+.social{
+	margin:0 auto;
+	width:800px;
+	height:240px;
+
+	text-align:center;
+	
+
+}
+.log{
+	width:25%;
+	height:100%;
+	text-align:center;
+	float:left;
+	
+
+}
+#logo1{
+	width:78px;
+	height:78px;
+	margin:37px;
+}
+
+#logo2{
+	width:100px;
+	height:100px;
+	margin:30px;
+}
+#logo3{
+	width:100px;
+	height:100px;
+	margin:30px;
+}
+#logo4{
+	width:75px;
+	height:75px;
+	margin:30px;
+	margin-top:38px;
+}
+#logo1:hover{
+	cursor:pointer;
+	width:110px;
+	height:110px;
+	transition:3s ease;
+	
+}
+#logo2:hover{
+	cursor:pointer;
+	width:120px;
+	height:120px;
+	transition:3s ease;
+	
+}
+#logo3:hover{
+	cursor:pointer;
+	width:120px;
+	height:120px;
+	transition:3s ease;
+	
+}
+#logo4:hover{
+	cursor:pointer;
+	width:120px;
+	height:120px;
+	transition:3s ease;
+	
+}
+#copyright{
+	color:white;
+	padding:5px;
+	font-size:15px;
+}
+
+#copyright:hover{
+	cursor:pointer;
+	font-size:20;
+	transition:3s ease;
+	color:rgb(251, 255, 16);
+}

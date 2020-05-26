@@ -1,0 +1,146 @@
+*{
+	margin:0 auto;
+	padding:0;
+	font-family:century Gothic;
+}
+.main{
+	margin:0 auto;
+	width:100%;
+
+}
+.header{
+	margin:auto;
+	width:100%;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.719),rgba(32, 22, 22, 0.726)) ,url(images/container4.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+
+
+.list ul{
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+	
+}
+ul li{	
+	display:inline-block;
+	
+}
+ul li a{
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition:0.6s ease;
+	font-weight: 20px;
+}
+ul li a:hover
+{
+	background-color:#fff;
+	color:#000;
+	box-shadow:0px 0px 0px 0px grey;
+	
+}
+
+ul li.active a
+{
+	background-color:white;
+	color:black;
+	
+}
+.logo img
+{
+	float:left;
+	width:80px;
+	height:80px;
+	margin-left:10px;
+}
+
+#booking{
+	width:40%;
+	height:80%;
+	background:white;
+    color:black;
+    top:12%;
+    left:34%;
+    position:absolute;
+
+}
+#bookinghead{
+	font-size:30px;
+	background:rgb(255, 104, 104);
+	padding:5px;
+	color:#00fff2;
+	text-align:center;
+	font-family:Times New Roman;
+}
+#booking .input-field{
+    width:70%;
+    padding:10px;
+    margin:10px 10px;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom:1px solid #999;
+    outline:none;
+    background:transparent;
+}
+
+::placeholder{
+  color:black;
+}
+#submit{
+	width:80%;
+	margin-top:40px;
+	padding:5px;
+	background:black;
+	color:white;
+	font-size:20px;
+	font-family:arial;
+	margin-left:10%;
+}
+.select{
+	width:80%;
+    padding:5px;
+    margin:10px 10px;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom:1px solid #999;
+    outline:none;
+    background:transparent;
+
+}
+#timetext{
+	color:black;
+	font-size:14px;
+}
+#timeinput{
+	width:60%;
+    padding:5px;
+    margin:5px 5px;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom:1px solid #999;
+    outline:none;
+    background:silver;
+}
+
+#dateinput{
+	width:60%;
+    padding:5px;
+    margin:5px 5px;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom:1px solid #999;
+    outline:none;
+    background:silver;
+}
+#datetext{
+	color:black;
+	font-size:14px;
+}
